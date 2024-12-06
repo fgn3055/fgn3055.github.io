@@ -1,9 +1,93 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Garden</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
 
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h1, h2 {
+      color: #4CAF50;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #388E3C;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #4CAF50;
+    }
+  </style>
+</head>
 <body>
-  <h1>Alex Lazarev</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+  <header>
+    <h1>My Digital Garden</h1>
+    <p>Grow your ideas, notes, and articles here.</p>
+  </header>
+  <main>
+    <h2>Categories</h2>
+    <ul>
+      <li><a href="notes.html">Notes</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a href="ideas.html">Ideas</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul>
 
+    <h2>Recent Updates</h2>
+    <ul>
+      <li><a href="notes/note1.html">Note 1: Understanding Bi-Directional Linking</a></li>
+      <li><a href="articles/article1.html">Article: How to Structure a Digital Garden</a></li>
+      <li><a href="ideas/idea1.html">Idea: A Visual Graph for Note Connections</a></li>
+    </ul>
+  </main>
+  <footer>
+    <p>Built with ❤️ for lifelong learning. <a href="https://github.com/">GitHub</a> | <a href="https://www.netlify.com/">Netlify</a></p>
+  </footer>
+</body>
 </html>
